@@ -1,0 +1,84 @@
+html {
+	font-family: Helvetica, Arial, sans-serif !important;						/*Schriftart Times New Roman, Arial, Arial Black*/
+	font-size: 10pt;
+	color: #000000;
+}
+
+body {
+	
+	/*Hintergrund Einstellungen*/
+	background-color: #FFFFFF; 				/*Farbe  des Hintergrungbildes*/
+	background-image: url("../images/hbt.jpg");	/*der Poller*/
+	background-repeat: no-repeat;			/*keine Vervielf�ltigung*/
+	background-position: bottom left;		/*Position des Bildes*/
+	background-attachment: fixed;
+}
+
+h1 {
+	font-size: 20pt;
+}
+
+h2 {
+	font-size: 14pt;
+}
+
+h3 {
+	font-size: 12pt;
+}
+
+.txtarea{ 									/*Ausrichten der Punkte im Textfeld*/
+   text-align:center;   
+}
+
+td.secondarycolor {
+	background-color: #c1d5eb;
+}
+
+tr.primarycolor {
+	background-image: url("../images/back.png");
+}
+
+tr.secondarycolor {
+	background-color: #c1d5eb;
+}
+
+input.button {
+	background-color: #7390b1;
+	color: #ffffff;
+}
+
+.tooltip {
+	position:absolute;
+	right:0.5px;
+	top:2em;
+	background-color:#ffffff;
+	border:1px solid #94b0d0;
+	width:350px; padding: 0.5em;
+	z-index: 4;
+	display: none;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.elo_details {
+	display: none;
+}
+
+.admin_action {
+	display: none;
+}
+
+div.x_label {
+  display: none;
+}
+
+span.date {
+  color: #666666;
+}
+
+.rickshaw_legend ul li {
+	display: inline;
+}
